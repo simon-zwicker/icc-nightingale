@@ -30,7 +30,7 @@
 		4FCD22ED2BA9D317004102C7 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22EC2BA9D317004102C7 /* ItemType.swift */; };
 		4FCD22EF2BA9D394004102C7 /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22EE2BA9D394004102C7 /* Stat.swift */; };
 		4FCD22F12BA9D3D7004102C7 /* StatValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22F02BA9D3D7004102C7 /* StatValue.swift */; };
-		4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22F22BA9D425004102C7 /* SCCItem.swift */; };
+		4FCD22F32BA9D425004102C7 /* NGItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22F22BA9D425004102C7 /* NGItem.swift */; };
 		4FCD22F52BAAD0CA004102C7 /* Nightingale.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */; };
 		4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */; };
 		4FCD23052BAAD5F6004102C7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23042BAAD5F6004102C7 /* DataManager.swift */; };
@@ -40,7 +40,7 @@
 		4FCD23172BAAF010004102C7 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23162BAAF010004102C7 /* Tab.swift */; };
 		4FCD231E2BAB0DB7004102C7 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231D2BAB0DB7004102C7 /* TabItem.swift */; };
 		4FCD23202BAB0DCE004102C7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231F2BAB0DCE004102C7 /* View.swift */; };
-		4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23292BAB26D6004102C7 /* ItemsView.swift */; };
+		4FCD232A2BAB26D6004102C7 /* GeneralItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23292BAB26D6004102C7 /* GeneralItemsView.swift */; };
 		4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23482BAC2810004102C7 /* BuildingsView.swift */; };
 		4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234B2BAC2874004102C7 /* CardsView.swift */; };
 		4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234F2BAC2890004102C7 /* TradersView.swift */; };
@@ -93,7 +93,7 @@
 		4FCD22EC2BA9D317004102C7 /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
 		4FCD22EE2BA9D394004102C7 /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
 		4FCD22F02BA9D3D7004102C7 /* StatValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatValue.swift; sourceTree = "<group>"; };
-		4FCD22F22BA9D425004102C7 /* SCCItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCItem.swift; sourceTree = "<group>"; };
+		4FCD22F22BA9D425004102C7 /* NGItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGItem.swift; sourceTree = "<group>"; };
 		4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Nightingale.xcassets; sourceTree = "<group>"; };
 		4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 		4FCD23042BAAD5F6004102C7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		4FCD23162BAAF010004102C7 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4FCD231D2BAB0DB7004102C7 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		4FCD231F2BAB0DCE004102C7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		4FCD23292BAB26D6004102C7 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		4FCD23292BAB26D6004102C7 /* GeneralItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralItemsView.swift; sourceTree = "<group>"; };
 		4FCD23482BAC2810004102C7 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 		4FCD234B2BAC2874004102C7 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		4FCD234F2BAC2890004102C7 /* TradersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersView.swift; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 				4FCD22EC2BA9D317004102C7 /* ItemType.swift */,
 				4FCD22EE2BA9D394004102C7 /* Stat.swift */,
 				4FCD22F02BA9D3D7004102C7 /* StatValue.swift */,
-				4FCD22F22BA9D425004102C7 /* SCCItem.swift */,
+				4FCD22F22BA9D425004102C7 /* NGItem.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -350,7 +350,7 @@
 		4FCD23282BAB26CC004102C7 /* Items */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD23292BAB26D6004102C7 /* ItemsView.swift */,
+				4FCD23292BAB26D6004102C7 /* GeneralItemsView.swift */,
 				4FCD23602BAC6ECC004102C7 /* ItemCell.swift */,
 			);
 			path = Items;
@@ -546,7 +546,7 @@
 				4FCD23202BAB0DCE004102C7 /* View.swift in Sources */,
 				4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */,
 				4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */,
-				4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */,
+				4FCD22F32BA9D425004102C7 /* NGItem.swift in Sources */,
 				4FCD22C22BA9B6A4004102C7 /* APIResult.swift in Sources */,
 				4FCD22D52BA9BB03004102C7 /* APICaller.swift in Sources */,
 				4FCD22CC2BA9B999004102C7 /* StatObject.swift in Sources */,
@@ -562,7 +562,7 @@
 				4FCD22BF2BA9B4B1004102C7 /* APIEndpoints.swift in Sources */,
 				4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */,
 				4FCD23612BAC6ECC004102C7 /* ItemCell.swift in Sources */,
-				4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */,
+				4FCD232A2BAB26D6004102C7 /* GeneralItemsView.swift in Sources */,
 				4FCD23102BAAE0E3004102C7 /* NightingaleView.swift in Sources */,
 				4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */,
 				4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */,

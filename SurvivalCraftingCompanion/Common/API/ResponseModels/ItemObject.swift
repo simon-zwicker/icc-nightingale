@@ -14,4 +14,5 @@ struct ItemObject: Codable {
     let stats: [String]?
     let description: String
     let icon: String
+    let generaltype: String
 }

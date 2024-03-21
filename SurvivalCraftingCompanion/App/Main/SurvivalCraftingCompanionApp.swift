@@ -23,7 +23,7 @@ struct SurvivalCraftingCompanionApp: App {
             ItemType.self,
             Stat.self,
             StatValue.self,
-            SCCItem.self
+            NGItem.self
         ])
     }
 }

@@ -10,7 +10,7 @@ import ZNetwork
 
 final class APICaller {
 
-    static func call<T: Decodable & Encodable>(_ T: T.Type, endpoint: APIEndpoints) async throws -> APIResult<T> {
+    static func call<T: Codable>(_ T: T.Type, endpoint: APIEndpoints) async throws -> APIResult<T> {
         let network = Networking<APIResult<T>>()
         network.endpoint = endpoint
         let result = await network.fetch()

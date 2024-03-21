@@ -14,7 +14,7 @@ class AppUtils {
     var itemTypes: [ItemType] = .init()
     var stats: [Stat] = .init()
     var statValues: [StatValue] = .init()
-    var items: [SCCItem] = .init()
+    var items: [NGItem] = .init()
 
     func imageWithFallback(_ imageName: String) -> Image {
         UIImage(named: imageName) == nil ? Image("noIcon"): Image(imageName)

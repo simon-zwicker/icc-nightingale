@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIGlass
 
 struct ItemCell: View {
 
@@ -19,7 +18,7 @@ struct ItemCell: View {
             Image(icon)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 40.0, height: 40.0)
+                .frame(width: 50.0, height: 50.0)
                 .background(
                     Circle()
                         .fill(.gray.gradient)

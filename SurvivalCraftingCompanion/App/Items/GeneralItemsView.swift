@@ -9,14 +9,11 @@ import SwiftUI
 import SwiftData
 import SwiftUIGlass
 
-struct ItemsView: View {
+struct GeneralItemsView: View {
 
     // MARK: - Environment
     @Environment(\.modelContext) var context
     @Environment(AppUtils.self) var appUtils
-
-    // MARK: - Queries
-    @Query(sort: \GeneralType.name) var generalTypes: [GeneralType]
 
     var body: some View {
         NavigationStack {
@@ -41,16 +38,17 @@ struct ItemsView: View {
         }
         .onAppear {
             Task {
-                if appUtils.generalTypes.isEmpty {
-                    if generalTypes.isEmpty {
-                        let data = await DataManager.shared.fetchGeneralTypes()
-                        data.forEach({
-                            context.insert($0)
-                        })
-                    }
+                let descriptor = FetchDescriptor<GeneralType>(sortBy: [SortDescriptor(\.name)])
 
-                    appUtils.generalTypes = generalTypes
+                let localData = try? context.fetch(descriptor)
+                if let localData, localData.isEmpty {
+                    let data = await DataManager.shared.fetchGeneralTypes()
+                    data.forEach({
+                        context.insert($0)
+                    })
                 }
+
+                appUtils.generalTypes = (try? context.fetch(descriptor)) ?? []
             }
         }
     }

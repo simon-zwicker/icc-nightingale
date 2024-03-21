@@ -69,14 +69,14 @@ final class DataManager {
         return transformed
     }
 
-    func fetchItems() async -> [SCCItem] {
+    func fetchItems() async -> [NGItem] {
 
         guard let objects = try? await APICaller.call(ItemObject.self, endpoint: .ngItems) else { return [] }
 
-        var transformed: [SCCItem] = .init()
+        var transformed: [NGItem] = .init()
         objects.items.forEach({
             transformed.append(
-                SCCItem(
+                NGItem(
                     $0.id,
                     name: $0.name, 
                     desc: $0.description,

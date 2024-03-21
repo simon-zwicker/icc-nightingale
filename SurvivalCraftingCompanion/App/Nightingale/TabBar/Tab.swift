@@ -40,7 +40,7 @@ extension Tab {
     @ViewBuilder
     var view: some View {
         switch self {
-        case .items: ItemsView()
+        case .items: GeneralItemsView()
         case .buildings: BuildingsView()
         case .cards: CardsView()
         case .trader: TradersView()

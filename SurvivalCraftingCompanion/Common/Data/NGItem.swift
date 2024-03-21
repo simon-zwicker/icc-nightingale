@@ -8,7 +8,7 @@
 import SwiftData
 
 @Model
-class SCCItem {
+class NGItem {
     let pbID: String
     let name: String
     let desc: String
@@ -17,6 +17,7 @@ class SCCItem {
     let craftingRecipeID: String?
     let craftingStationIDs: [String]?
     let icon: String
+    let generalTypeID: String
 
     init(
         _ id: String,
@@ -26,7 +27,8 @@ class SCCItem {
         statIDs: [String]? = nil,
         craftingRecipeID: String? = nil,
         craftingStationIDs: [String]? = nil,
-        icon: String
+        icon: String,
+        generalTypeID: String
     ) {
         self.pbID = id
         self.name = name
@@ -36,5 +38,6 @@ class SCCItem {
         self.craftingRecipeID = craftingRecipeID
         self.craftingStationIDs = craftingStationIDs
         self.icon = icon
+        self.generalTypeID = generalTypeID
     }
 }
