@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import SwiftUIGlass
 
 struct ItemsView: View {
 

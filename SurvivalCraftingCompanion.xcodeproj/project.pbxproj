@@ -43,19 +43,12 @@
 		4FCD23202BAB0DCE004102C7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231F2BAB0DCE004102C7 /* View.swift */; };
 		4FCD23232BAB0E52004102C7 /* PositionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23222BAB0E52004102C7 /* PositionKey.swift */; };
 		4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23292BAB26D6004102C7 /* ItemsView.swift */; };
-		4FCD233E2BAB2D3F004102C7 /* GlassPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23352BAB2D3F004102C7 /* GlassPane.swift */; };
-		4FCD23402BAB2D3F004102C7 /* GlassList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23372BAB2D3F004102C7 /* GlassList.swift */; };
-		4FCD23412BAB2D3F004102C7 /* GlassLazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23392BAB2D3F004102C7 /* GlassLazyHGrid.swift */; };
-		4FCD23422BAB2D3F004102C7 /* GlassLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD233A2BAB2D3F004102C7 /* GlassLazyVGrid.swift */; };
-		4FCD23432BAB2D3F004102C7 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD233C2BAB2D3F004102C7 /* RoundedCorner.swift */; };
-		4FCD23442BAB2D3F004102C7 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD233D2BAB2D3F004102C7 /* GlassView.swift */; };
 		4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23482BAC2810004102C7 /* BuildingsView.swift */; };
 		4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234B2BAC2874004102C7 /* CardsView.swift */; };
 		4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234F2BAC2890004102C7 /* TradersView.swift */; };
 		4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23522BAC28A4004102C7 /* MoreView.swift */; };
 		4FCD23552BAC56C3004102C7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */; };
-		4FCD23592BAC57C6004102C7 /* GlassCellModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23582BAC57C6004102C7 /* GlassCellModifier.swift */; };
-		4FCD235B2BAC5872004102C7 /* GlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD235A2BAC5872004102C7 /* GlassModifier.swift */; };
+		4FCD235E2BAC683C004102C7 /* SwiftUIGlass in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCD235D2BAC683C004102C7 /* SwiftUIGlass */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,19 +106,11 @@
 		4FCD231F2BAB0DCE004102C7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		4FCD23222BAB0E52004102C7 /* PositionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionKey.swift; sourceTree = "<group>"; };
 		4FCD23292BAB26D6004102C7 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
-		4FCD23352BAB2D3F004102C7 /* GlassPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassPane.swift; sourceTree = "<group>"; };
-		4FCD23372BAB2D3F004102C7 /* GlassList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassList.swift; sourceTree = "<group>"; };
-		4FCD23392BAB2D3F004102C7 /* GlassLazyHGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassLazyHGrid.swift; sourceTree = "<group>"; };
-		4FCD233A2BAB2D3F004102C7 /* GlassLazyVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassLazyVGrid.swift; sourceTree = "<group>"; };
-		4FCD233C2BAB2D3F004102C7 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
-		4FCD233D2BAB2D3F004102C7 /* GlassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
 		4FCD23482BAC2810004102C7 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 		4FCD234B2BAC2874004102C7 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		4FCD234F2BAC2890004102C7 /* TradersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersView.swift; sourceTree = "<group>"; };
 		4FCD23522BAC28A4004102C7 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		4FCD23582BAC57C6004102C7 /* GlassCellModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCellModifier.swift; sourceTree = "<group>"; };
-		4FCD235A2BAC5872004102C7 /* GlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +120,7 @@
 			files = (
 				4FCD22B72BA9A685004102C7 /* ZNetwork in Frameworks */,
 				4FCD230A2BAAE033004102C7 /* Routing in Frameworks */,
+				4FCD235E2BAC683C004102C7 /* SwiftUIGlass in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +214,6 @@
 		4FCD22A02BA990C1004102C7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD22AC2BA9915A004102C7 /* Data */,
 				4FCD22AB2BA99152004102C7 /* Translations */,
 				4FCD22AA2BA9914A004102C7 /* Assets */,
 			);
@@ -238,6 +223,7 @@
 		4FCD22A12BA990CA004102C7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				4FCD22AC2BA9915A004102C7 /* Data */,
 				4FCD230B2BAAE06A004102C7 /* Routers */,
 				4FCD22AD2BA9A19D004102C7 /* API */,
 			);
@@ -384,38 +370,8 @@
 		4FCD232B2BAB2735004102C7 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD232C2BAB273C004102C7 /* Glass */,
 			);
 			path = UIComponents;
-			sourceTree = "<group>";
-		};
-		4FCD232C2BAB273C004102C7 /* Glass */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD233B2BAB2D3F004102C7 /* GlassGrid */,
-				4FCD23382BAB2D3F004102C7 /* GlassList */,
-				4FCD23352BAB2D3F004102C7 /* GlassPane.swift */,
-				4FCD233D2BAB2D3F004102C7 /* GlassView.swift */,
-				4FCD233C2BAB2D3F004102C7 /* RoundedCorner.swift */,
-			);
-			path = Glass;
-			sourceTree = "<group>";
-		};
-		4FCD23382BAB2D3F004102C7 /* GlassList */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD23372BAB2D3F004102C7 /* GlassList.swift */,
-			);
-			path = GlassList;
-			sourceTree = "<group>";
-		};
-		4FCD233B2BAB2D3F004102C7 /* GlassGrid */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD23392BAB2D3F004102C7 /* GlassLazyHGrid.swift */,
-				4FCD233A2BAB2D3F004102C7 /* GlassLazyVGrid.swift */,
-			);
-			path = GlassGrid;
 			sourceTree = "<group>";
 		};
 		4FCD23472BAC2806004102C7 /* Buildings */ = {
@@ -453,18 +409,8 @@
 		4FCD23562BAC57B9004102C7 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD23572BAC57BD004102C7 /* Glass */,
 			);
 			path = Modifiers;
-			sourceTree = "<group>";
-		};
-		4FCD23572BAC57BD004102C7 /* Glass */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD23582BAC57C6004102C7 /* GlassCellModifier.swift */,
-				4FCD235A2BAC5872004102C7 /* GlassModifier.swift */,
-			);
-			path = Glass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +432,7 @@
 			packageProductDependencies = (
 				4FCD22B62BA9A685004102C7 /* ZNetwork */,
 				4FCD23092BAAE033004102C7 /* Routing */,
+				4FCD235D2BAC683C004102C7 /* SwiftUIGlass */,
 			);
 			productName = SurvivalCraftingCompanion;
 			productReference = 4FCD22722BA98FAF004102C7 /* SurvivalCraftingCompanion.app */;
@@ -562,6 +509,7 @@
 			packageReferences = (
 				4FCD22B52BA9A685004102C7 /* XCRemoteSwiftPackageReference "ZNetwork" */,
 				4FCD23082BAAE033004102C7 /* XCRemoteSwiftPackageReference "Routing" */,
+				4FCD235C2BAC683C004102C7 /* XCRemoteSwiftPackageReference "SwiftUIGlass" */,
 			);
 			productRefGroup = 4FCD22732BA98FAF004102C7 /* Products */;
 			projectDirPath = "";
@@ -609,14 +557,11 @@
 				4FCD23202BAB0DCE004102C7 /* View.swift in Sources */,
 				4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */,
 				4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */,
-				4FCD23592BAC57C6004102C7 /* GlassCellModifier.swift in Sources */,
 				4FCD22FE2BAAD46D004102C7 /* UDManager.swift in Sources */,
 				4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */,
-				4FCD23422BAB2D3F004102C7 /* GlassLazyVGrid.swift in Sources */,
 				4FCD22C22BA9B6A4004102C7 /* APIResult.swift in Sources */,
 				4FCD22D52BA9BB03004102C7 /* APICaller.swift in Sources */,
 				4FCD22CC2BA9B999004102C7 /* StatObject.swift in Sources */,
-				4FCD23402BAB2D3F004102C7 /* GlassList.swift in Sources */,
 				4FCD23052BAAD5F6004102C7 /* DataManager.swift in Sources */,
 				4FCD22CE2BA9B9D3004102C7 /* StatValueObject.swift in Sources */,
 				4FCD22C42BA9B811004102C7 /* APIError.swift in Sources */,
@@ -631,20 +576,15 @@
 				4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */,
 				4FCD23102BAAE0E3004102C7 /* NightingaleView.swift in Sources */,
 				4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */,
-				4FCD23412BAB2D3F004102C7 /* GlassLazyHGrid.swift in Sources */,
 				4FCD23232BAB0E52004102C7 /* PositionKey.swift in Sources */,
 				4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */,
 				4FCD22762BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift in Sources */,
 				4FCD22B92BA9A691004102C7 /* APIEnvironment.swift in Sources */,
 				4FCD22E92BA9CDA2004102C7 /* GeneralType.swift in Sources */,
 				4FCD22F12BA9D3D7004102C7 /* StatValue.swift in Sources */,
-				4FCD233E2BAB2D3F004102C7 /* GlassPane.swift in Sources */,
-				4FCD23432BAB2D3F004102C7 /* RoundedCorner.swift in Sources */,
 				4FCD22C62BA9B8A9004102C7 /* GeneralTypeObject.swift in Sources */,
-				4FCD235B2BAC5872004102C7 /* GlassModifier.swift in Sources */,
 				4FCD230D2BAAE07E004102C7 /* AppRoute.swift in Sources */,
 				4FCD22BD2BA9B3B5004102C7 /* Networking.swift in Sources */,
-				4FCD23442BAB2D3F004102C7 /* GlassView.swift in Sources */,
 				4FCD22ED2BA9D317004102C7 /* ItemType.swift in Sources */,
 				4FCD23552BAC56C3004102C7 /* CustomTabBar.swift in Sources */,
 			);
@@ -1008,6 +948,14 @@
 				kind = branch;
 			};
 		};
+		4FCD235C2BAC683C004102C7 /* XCRemoteSwiftPackageReference "SwiftUIGlass" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/14slash12/SwiftUIGlass";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1020,6 +968,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4FCD23082BAAE033004102C7 /* XCRemoteSwiftPackageReference "Routing" */;
 			productName = Routing;
+		};
+		4FCD235D2BAC683C004102C7 /* SwiftUIGlass */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCD235C2BAC683C004102C7 /* XCRemoteSwiftPackageReference "SwiftUIGlass" */;
+			productName = SwiftUIGlass;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
