@@ -47,6 +47,7 @@
 		4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23522BAC28A4004102C7 /* MoreView.swift */; };
 		4FCD23552BAC56C3004102C7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */; };
 		4FCD235E2BAC683C004102C7 /* SwiftUIGlass in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCD235D2BAC683C004102C7 /* SwiftUIGlass */; };
+		4FCD23612BAC6ECC004102C7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23602BAC6ECC004102C7 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		4FCD234F2BAC2890004102C7 /* TradersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersView.swift; sourceTree = "<group>"; };
 		4FCD23522BAC28A4004102C7 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4FCD23602BAC6ECC004102C7 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				4FCD23292BAB26D6004102C7 /* ItemsView.swift */,
+				4FCD23602BAC6ECC004102C7 /* ItemCell.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				4FCD22EF2BA9D394004102C7 /* Stat.swift in Sources */,
 				4FCD22BF2BA9B4B1004102C7 /* APIEndpoints.swift in Sources */,
 				4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */,
+				4FCD23612BAC6ECC004102C7 /* ItemCell.swift in Sources */,
 				4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */,
 				4FCD23102BAAE0E3004102C7 /* NightingaleView.swift in Sources */,
 				4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */,

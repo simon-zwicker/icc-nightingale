@@ -14,27 +14,43 @@ struct ItemsView: View {
     // MARK: - Environment
     @Environment(\.modelContext) var context
     @Environment(AppUtils.self) var appUtils
-    
+
+    // MARK: - Queries
+    @Query(sort: \GeneralType.name) var generalTypes: [GeneralType]
 
     var body: some View {
         NavigationStack {
             ZStack {
                 Color.clear.background(appUtils.backgroundImage)
 
-                GlassList(items: appUtils.generalTypes, cornerRadius: 10.0) { gt in
-                    HStack {
-                        Image(gt.icon)
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 35.0, height: 35.0)
+                VStack(alignment: .leading) {
+                    Text("All Items")
+                        .font(.system(size: 32.0, weight: .bold))
+                        .foregroundStyle(.white)
 
-                        Text(gt.name)
-                            .font(.system(size: 16.0))
+                    List {
+                        ForEach(appUtils.generalTypes, id: \.pbID) { general in
+                            ItemCell(name: general.name, icon: general.icon)
+                                .listRowBackground(Color.clear)
+                        }
                     }
+                    .listStyle(.plain)
                 }
-                .cornerRadius(20.0)
                 .padding()
-                .offset(y: 50.0)
+            }
+        }
+        .onAppear {
+            Task {
+                if appUtils.generalTypes.isEmpty {
+                    if generalTypes.isEmpty {
+                        let data = await DataManager.shared.fetchGeneralTypes()
+                        data.forEach({
+                            context.insert($0)
+                        })
+                    }
+
+                    appUtils.generalTypes = generalTypes
+                }
             }
         }
     }
