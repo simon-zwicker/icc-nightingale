@@ -16,6 +16,12 @@ struct TradersView: View {
         NavigationStack {
             ZStack {
                 Color.clear.background(appUtils.backgroundImage)
+
+                VStack(alignment: .leading) {
+                    Text("Traders")
+                        .font(.system(size: 32.0, weight: .bold))
+                        .foregroundStyle(.white)
+                }
             }
         }
     }

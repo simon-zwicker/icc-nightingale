@@ -16,6 +16,12 @@ struct BuildingsView: View {
         NavigationStack {
             ZStack {
                 Color.clear.background(appUtils.backgroundImage)
+
+                VStack(alignment: .leading) {
+                    Text("Buildings")
+                        .font(.system(size: 32.0, weight: .bold))
+                        .foregroundStyle(.white)
+                }
             }
         }
     }

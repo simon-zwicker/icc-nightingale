@@ -16,6 +16,12 @@ struct CardsView: View {
         NavigationStack {
             ZStack {
                 Color.clear.background(appUtils.backgroundImage)
+
+                VStack(alignment: .leading) {
+                    Text("Cards")
+                        .font(.system(size: 32.0, weight: .bold))
+                        .foregroundStyle(.white)
+                }
             }
         }
     }
