@@ -41,7 +41,6 @@
 		4FCD23172BAAF010004102C7 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23162BAAF010004102C7 /* Tab.swift */; };
 		4FCD231E2BAB0DB7004102C7 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231D2BAB0DB7004102C7 /* TabItem.swift */; };
 		4FCD23202BAB0DCE004102C7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231F2BAB0DCE004102C7 /* View.swift */; };
-		4FCD23232BAB0E52004102C7 /* PositionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23222BAB0E52004102C7 /* PositionKey.swift */; };
 		4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23292BAB26D6004102C7 /* ItemsView.swift */; };
 		4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23482BAC2810004102C7 /* BuildingsView.swift */; };
 		4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234B2BAC2874004102C7 /* CardsView.swift */; };
@@ -104,7 +103,6 @@
 		4FCD23162BAAF010004102C7 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4FCD231D2BAB0DB7004102C7 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		4FCD231F2BAB0DCE004102C7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		4FCD23222BAB0E52004102C7 /* PositionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionKey.swift; sourceTree = "<group>"; };
 		4FCD23292BAB26D6004102C7 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
 		4FCD23482BAC2810004102C7 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 		4FCD234B2BAC2874004102C7 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
@@ -203,7 +201,6 @@
 			children = (
 				4FCD23562BAC57B9004102C7 /* Modifiers */,
 				4FCD232B2BAB2735004102C7 /* UIComponents */,
-				4FCD23212BAB0E45004102C7 /* Keys */,
 				4FCD22FC2BAAD465004102C7 /* Managers */,
 				4FCD22F62BAAD1CE004102C7 /* Extensions */,
 				4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */,
@@ -349,14 +346,6 @@
 				4FCD231D2BAB0DB7004102C7 /* TabItem.swift */,
 			);
 			path = TabBar;
-			sourceTree = "<group>";
-		};
-		4FCD23212BAB0E45004102C7 /* Keys */ = {
-			isa = PBXGroup;
-			children = (
-				4FCD23222BAB0E52004102C7 /* PositionKey.swift */,
-			);
-			path = Keys;
 			sourceTree = "<group>";
 		};
 		4FCD23282BAB26CC004102C7 /* Items */ = {
@@ -576,7 +565,6 @@
 				4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */,
 				4FCD23102BAAE0E3004102C7 /* NightingaleView.swift in Sources */,
 				4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */,
-				4FCD23232BAB0E52004102C7 /* PositionKey.swift in Sources */,
 				4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */,
 				4FCD22762BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift in Sources */,
 				4FCD22B92BA9A691004102C7 /* APIEnvironment.swift in Sources */,
