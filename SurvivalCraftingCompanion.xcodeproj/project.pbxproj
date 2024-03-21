@@ -8,12 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		4FCD22762BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22752BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift */; };
-		4FCD22782BA98FAF004102C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22772BA98FAF004102C7 /* ContentView.swift */; };
 		4FCD227A2BA98FB0004102C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD22792BA98FB0004102C7 /* Assets.xcassets */; };
 		4FCD227D2BA98FB0004102C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD227C2BA98FB0004102C7 /* Preview Assets.xcassets */; };
 		4FCD22872BA98FB0004102C7 /* SurvivalCraftingCompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22862BA98FB0004102C7 /* SurvivalCraftingCompanionTests.swift */; };
 		4FCD22912BA98FB0004102C7 /* SurvivalCraftingCompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22902BA98FB0004102C7 /* SurvivalCraftingCompanionUITests.swift */; };
 		4FCD22932BA98FB0004102C7 /* SurvivalCraftingCompanionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22922BA98FB0004102C7 /* SurvivalCraftingCompanionUITestsLaunchTests.swift */; };
+		4FCD22B72BA9A685004102C7 /* ZNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCD22B62BA9A685004102C7 /* ZNetwork */; };
+		4FCD22B92BA9A691004102C7 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22B82BA9A691004102C7 /* APIEnvironment.swift */; };
+		4FCD22BB2BA9B15D004102C7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22BA2BA9B15D004102C7 /* Network.swift */; };
+		4FCD22BD2BA9B3B5004102C7 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22BC2BA9B3B5004102C7 /* Networking.swift */; };
+		4FCD22BF2BA9B4B1004102C7 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22BE2BA9B4B1004102C7 /* APIEndpoints.swift */; };
+		4FCD22C22BA9B6A4004102C7 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22C12BA9B6A4004102C7 /* APIResult.swift */; };
+		4FCD22C42BA9B811004102C7 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22C32BA9B811004102C7 /* APIError.swift */; };
+		4FCD22C62BA9B8A9004102C7 /* GeneralTypeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22C52BA9B8A9004102C7 /* GeneralTypeObject.swift */; };
+		4FCD22CC2BA9B999004102C7 /* StatObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22CB2BA9B999004102C7 /* StatObject.swift */; };
+		4FCD22CE2BA9B9D3004102C7 /* StatValueObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22CD2BA9B9D3004102C7 /* StatValueObject.swift */; };
+		4FCD22D02BA9BA01004102C7 /* ItemTypeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22CF2BA9BA01004102C7 /* ItemTypeObject.swift */; };
+		4FCD22D22BA9BA5F004102C7 /* ItemObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22D12BA9BA5F004102C7 /* ItemObject.swift */; };
+		4FCD22D52BA9BB03004102C7 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22D42BA9BB03004102C7 /* APICaller.swift */; };
+		4FCD22E92BA9CDA2004102C7 /* GeneralType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22E82BA9CDA2004102C7 /* GeneralType.swift */; };
+		4FCD22ED2BA9D317004102C7 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22EC2BA9D317004102C7 /* ItemType.swift */; };
+		4FCD22EF2BA9D394004102C7 /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22EE2BA9D394004102C7 /* Stat.swift */; };
+		4FCD22F12BA9D3D7004102C7 /* StatValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22F02BA9D3D7004102C7 /* StatValue.swift */; };
+		4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22F22BA9D425004102C7 /* SCCItem.swift */; };
+		4FCD22F52BAAD0CA004102C7 /* Nightingale.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */; };
+		4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */; };
+		4FCD22FE2BAAD46D004102C7 /* UDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22FD2BAAD46D004102C7 /* UDManager.swift */; };
+		4FCD23052BAAD5F6004102C7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23042BAAD5F6004102C7 /* DataManager.swift */; };
+		4FCD230A2BAAE033004102C7 /* Routing in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCD23092BAAE033004102C7 /* Routing */; };
+		4FCD230D2BAAE07E004102C7 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD230C2BAAE07E004102C7 /* AppRoute.swift */; };
+		4FCD23102BAAE0E3004102C7 /* NightingaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD230F2BAAE0E3004102C7 /* NightingaleView.swift */; };
+		4FCD23172BAAF010004102C7 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23162BAAF010004102C7 /* Tab.swift */; };
+		4FCD231E2BAB0DB7004102C7 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231D2BAB0DB7004102C7 /* TabItem.swift */; };
+		4FCD23202BAB0DCE004102C7 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD231F2BAB0DCE004102C7 /* View.swift */; };
+		4FCD23232BAB0E52004102C7 /* PositionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23222BAB0E52004102C7 /* PositionKey.swift */; };
+		4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23292BAB26D6004102C7 /* ItemsView.swift */; };
+		4FCD233E2BAB2D3F004102C7 /* GlassPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23352BAB2D3F004102C7 /* GlassPane.swift */; };
+		4FCD23402BAB2D3F004102C7 /* GlassList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23372BAB2D3F004102C7 /* GlassList.swift */; };
+		4FCD23412BAB2D3F004102C7 /* GlassLazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23392BAB2D3F004102C7 /* GlassLazyHGrid.swift */; };
+		4FCD23422BAB2D3F004102C7 /* GlassLazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD233A2BAB2D3F004102C7 /* GlassLazyVGrid.swift */; };
+		4FCD23432BAB2D3F004102C7 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD233C2BAB2D3F004102C7 /* RoundedCorner.swift */; };
+		4FCD23442BAB2D3F004102C7 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD233D2BAB2D3F004102C7 /* GlassView.swift */; };
+		4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23482BAC2810004102C7 /* BuildingsView.swift */; };
+		4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234B2BAC2874004102C7 /* CardsView.swift */; };
+		4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD234F2BAC2890004102C7 /* TradersView.swift */; };
+		4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23522BAC28A4004102C7 /* MoreView.swift */; };
+		4FCD23552BAC56C3004102C7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */; };
+		4FCD23592BAC57C6004102C7 /* GlassCellModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23582BAC57C6004102C7 /* GlassCellModifier.swift */; };
+		4FCD235B2BAC5872004102C7 /* GlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD235A2BAC5872004102C7 /* GlassModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +78,6 @@
 /* Begin PBXFileReference section */
 		4FCD22722BA98FAF004102C7 /* SurvivalCraftingCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurvivalCraftingCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCD22752BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalCraftingCompanionApp.swift; sourceTree = "<group>"; };
-		4FCD22772BA98FAF004102C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FCD22792BA98FB0004102C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FCD227C2BA98FB0004102C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FCD22822BA98FB0004102C7 /* SurvivalCraftingCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivalCraftingCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +85,47 @@
 		4FCD228C2BA98FB0004102C7 /* SurvivalCraftingCompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurvivalCraftingCompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCD22902BA98FB0004102C7 /* SurvivalCraftingCompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalCraftingCompanionUITests.swift; sourceTree = "<group>"; };
 		4FCD22922BA98FB0004102C7 /* SurvivalCraftingCompanionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivalCraftingCompanionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FCD22B82BA9A691004102C7 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		4FCD22BA2BA9B15D004102C7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4FCD22BC2BA9B3B5004102C7 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		4FCD22BE2BA9B4B1004102C7 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		4FCD22C12BA9B6A4004102C7 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		4FCD22C32BA9B811004102C7 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		4FCD22C52BA9B8A9004102C7 /* GeneralTypeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTypeObject.swift; sourceTree = "<group>"; };
+		4FCD22CB2BA9B999004102C7 /* StatObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatObject.swift; sourceTree = "<group>"; };
+		4FCD22CD2BA9B9D3004102C7 /* StatValueObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatValueObject.swift; sourceTree = "<group>"; };
+		4FCD22CF2BA9BA01004102C7 /* ItemTypeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypeObject.swift; sourceTree = "<group>"; };
+		4FCD22D12BA9BA5F004102C7 /* ItemObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemObject.swift; sourceTree = "<group>"; };
+		4FCD22D42BA9BB03004102C7 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		4FCD22E82BA9CDA2004102C7 /* GeneralType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralType.swift; sourceTree = "<group>"; };
+		4FCD22EC2BA9D317004102C7 /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
+		4FCD22EE2BA9D394004102C7 /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+		4FCD22F02BA9D3D7004102C7 /* StatValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatValue.swift; sourceTree = "<group>"; };
+		4FCD22F22BA9D425004102C7 /* SCCItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCItem.swift; sourceTree = "<group>"; };
+		4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Nightingale.xcassets; sourceTree = "<group>"; };
+		4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		4FCD22FD2BAAD46D004102C7 /* UDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDManager.swift; sourceTree = "<group>"; };
+		4FCD23042BAAD5F6004102C7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4FCD230C2BAAE07E004102C7 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		4FCD230F2BAAE0E3004102C7 /* NightingaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightingaleView.swift; sourceTree = "<group>"; };
+		4FCD23162BAAF010004102C7 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		4FCD231D2BAB0DB7004102C7 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		4FCD231F2BAB0DCE004102C7 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4FCD23222BAB0E52004102C7 /* PositionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionKey.swift; sourceTree = "<group>"; };
+		4FCD23292BAB26D6004102C7 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		4FCD23352BAB2D3F004102C7 /* GlassPane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassPane.swift; sourceTree = "<group>"; };
+		4FCD23372BAB2D3F004102C7 /* GlassList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassList.swift; sourceTree = "<group>"; };
+		4FCD23392BAB2D3F004102C7 /* GlassLazyHGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassLazyHGrid.swift; sourceTree = "<group>"; };
+		4FCD233A2BAB2D3F004102C7 /* GlassLazyVGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassLazyVGrid.swift; sourceTree = "<group>"; };
+		4FCD233C2BAB2D3F004102C7 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		4FCD233D2BAB2D3F004102C7 /* GlassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
+		4FCD23482BAC2810004102C7 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
+		4FCD234B2BAC2874004102C7 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		4FCD234F2BAC2890004102C7 /* TradersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradersView.swift; sourceTree = "<group>"; };
+		4FCD23522BAC28A4004102C7 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4FCD23582BAC57C6004102C7 /* GlassCellModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCellModifier.swift; sourceTree = "<group>"; };
+		4FCD235A2BAC5872004102C7 /* GlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCD22B72BA9A685004102C7 /* ZNetwork in Frameworks */,
+				4FCD230A2BAAE033004102C7 /* Routing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +178,10 @@
 		4FCD22742BA98FAF004102C7 /* SurvivalCraftingCompanion */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD22752BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift */,
-				4FCD22772BA98FAF004102C7 /* ContentView.swift */,
-				4FCD22792BA98FB0004102C7 /* Assets.xcassets */,
+				4FCD22A32BA990D4004102C7 /* App */,
+				4FCD22A12BA990CA004102C7 /* Common */,
+				4FCD22A02BA990C1004102C7 /* Resources */,
+				4FCD229F2BA990BA004102C7 /* Utils */,
 				4FCD227B2BA98FB0004102C7 /* Preview Content */,
 			);
 			path = SurvivalCraftingCompanion;
@@ -127,6 +212,261 @@
 			path = SurvivalCraftingCompanionUITests;
 			sourceTree = "<group>";
 		};
+		4FCD229F2BA990BA004102C7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23562BAC57B9004102C7 /* Modifiers */,
+				4FCD232B2BAB2735004102C7 /* UIComponents */,
+				4FCD23212BAB0E45004102C7 /* Keys */,
+				4FCD22FC2BAAD465004102C7 /* Managers */,
+				4FCD22F62BAAD1CE004102C7 /* Extensions */,
+				4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4FCD22A02BA990C1004102C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22AC2BA9915A004102C7 /* Data */,
+				4FCD22AB2BA99152004102C7 /* Translations */,
+				4FCD22AA2BA9914A004102C7 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FCD22A12BA990CA004102C7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD230B2BAAE06A004102C7 /* Routers */,
+				4FCD22AD2BA9A19D004102C7 /* API */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4FCD22A32BA990D4004102C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23512BAC289A004102C7 /* More */,
+				4FCD234D2BAC287D004102C7 /* Traders */,
+				4FCD234A2BAC2862004102C7 /* Cards */,
+				4FCD23472BAC2806004102C7 /* Buildings */,
+				4FCD23282BAB26CC004102C7 /* Items */,
+				4FCD230E2BAAE0DB004102C7 /* Nightingale */,
+				4FCD22FF2BAAD48D004102C7 /* Main */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4FCD22AA2BA9914A004102C7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22792BA98FB0004102C7 /* Assets.xcassets */,
+				4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4FCD22AB2BA99152004102C7 /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		4FCD22AC2BA9915A004102C7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22E82BA9CDA2004102C7 /* GeneralType.swift */,
+				4FCD22EC2BA9D317004102C7 /* ItemType.swift */,
+				4FCD22EE2BA9D394004102C7 /* Stat.swift */,
+				4FCD22F02BA9D3D7004102C7 /* StatValue.swift */,
+				4FCD22F22BA9D425004102C7 /* SCCItem.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4FCD22AD2BA9A19D004102C7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22C02BA9B692004102C7 /* ResponseModels */,
+				4FCD22B82BA9A691004102C7 /* APIEnvironment.swift */,
+				4FCD22BA2BA9B15D004102C7 /* Network.swift */,
+				4FCD22BC2BA9B3B5004102C7 /* Networking.swift */,
+				4FCD22BE2BA9B4B1004102C7 /* APIEndpoints.swift */,
+				4FCD22D42BA9BB03004102C7 /* APICaller.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4FCD22C02BA9B692004102C7 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22C12BA9B6A4004102C7 /* APIResult.swift */,
+				4FCD22C32BA9B811004102C7 /* APIError.swift */,
+				4FCD22C52BA9B8A9004102C7 /* GeneralTypeObject.swift */,
+				4FCD22CB2BA9B999004102C7 /* StatObject.swift */,
+				4FCD22CD2BA9B9D3004102C7 /* StatValueObject.swift */,
+				4FCD22CF2BA9BA01004102C7 /* ItemTypeObject.swift */,
+				4FCD22D12BA9BA5F004102C7 /* ItemObject.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		4FCD22F62BAAD1CE004102C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD231F2BAB0DCE004102C7 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FCD22FC2BAAD465004102C7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22FD2BAAD46D004102C7 /* UDManager.swift */,
+				4FCD23042BAAD5F6004102C7 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4FCD22FF2BAAD48D004102C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD22752BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4FCD230B2BAAE06A004102C7 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD230C2BAAE07E004102C7 /* AppRoute.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		4FCD230E2BAAE0DB004102C7 /* Nightingale */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23152BAAF009004102C7 /* TabBar */,
+				4FCD230F2BAAE0E3004102C7 /* NightingaleView.swift */,
+				4FCD23542BAC56C3004102C7 /* CustomTabBar.swift */,
+			);
+			path = Nightingale;
+			sourceTree = "<group>";
+		};
+		4FCD23152BAAF009004102C7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23162BAAF010004102C7 /* Tab.swift */,
+				4FCD231D2BAB0DB7004102C7 /* TabItem.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4FCD23212BAB0E45004102C7 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23222BAB0E52004102C7 /* PositionKey.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		4FCD23282BAB26CC004102C7 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23292BAB26D6004102C7 /* ItemsView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		4FCD232B2BAB2735004102C7 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD232C2BAB273C004102C7 /* Glass */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		4FCD232C2BAB273C004102C7 /* Glass */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD233B2BAB2D3F004102C7 /* GlassGrid */,
+				4FCD23382BAB2D3F004102C7 /* GlassList */,
+				4FCD23352BAB2D3F004102C7 /* GlassPane.swift */,
+				4FCD233D2BAB2D3F004102C7 /* GlassView.swift */,
+				4FCD233C2BAB2D3F004102C7 /* RoundedCorner.swift */,
+			);
+			path = Glass;
+			sourceTree = "<group>";
+		};
+		4FCD23382BAB2D3F004102C7 /* GlassList */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23372BAB2D3F004102C7 /* GlassList.swift */,
+			);
+			path = GlassList;
+			sourceTree = "<group>";
+		};
+		4FCD233B2BAB2D3F004102C7 /* GlassGrid */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23392BAB2D3F004102C7 /* GlassLazyHGrid.swift */,
+				4FCD233A2BAB2D3F004102C7 /* GlassLazyVGrid.swift */,
+			);
+			path = GlassGrid;
+			sourceTree = "<group>";
+		};
+		4FCD23472BAC2806004102C7 /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23482BAC2810004102C7 /* BuildingsView.swift */,
+			);
+			path = Buildings;
+			sourceTree = "<group>";
+		};
+		4FCD234A2BAC2862004102C7 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD234B2BAC2874004102C7 /* CardsView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		4FCD234D2BAC287D004102C7 /* Traders */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD234F2BAC2890004102C7 /* TradersView.swift */,
+			);
+			path = Traders;
+			sourceTree = "<group>";
+		};
+		4FCD23512BAC289A004102C7 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23522BAC28A4004102C7 /* MoreView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		4FCD23562BAC57B9004102C7 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23572BAC57BD004102C7 /* Glass */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		4FCD23572BAC57BD004102C7 /* Glass */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD23582BAC57C6004102C7 /* GlassCellModifier.swift */,
+				4FCD235A2BAC5872004102C7 /* GlassModifier.swift */,
+			);
+			path = Glass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +483,10 @@
 			dependencies = (
 			);
 			name = SurvivalCraftingCompanion;
+			packageProductDependencies = (
+				4FCD22B62BA9A685004102C7 /* ZNetwork */,
+				4FCD23092BAAE033004102C7 /* Routing */,
+			);
 			productName = SurvivalCraftingCompanion;
 			productReference = 4FCD22722BA98FAF004102C7 /* SurvivalCraftingCompanion.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +559,10 @@
 				Base,
 			);
 			mainGroup = 4FCD22692BA98FAF004102C7;
+			packageReferences = (
+				4FCD22B52BA9A685004102C7 /* XCRemoteSwiftPackageReference "ZNetwork" */,
+				4FCD23082BAAE033004102C7 /* XCRemoteSwiftPackageReference "Routing" */,
+			);
 			productRefGroup = 4FCD22732BA98FAF004102C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +581,7 @@
 			files = (
 				4FCD227D2BA98FB0004102C7 /* Preview Assets.xcassets in Resources */,
 				4FCD227A2BA98FB0004102C7 /* Assets.xcassets in Resources */,
+				4FCD22F52BAAD0CA004102C7 /* Nightingale.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +606,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCD22782BA98FAF004102C7 /* ContentView.swift in Sources */,
+				4FCD23202BAB0DCE004102C7 /* View.swift in Sources */,
+				4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */,
+				4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */,
+				4FCD23592BAC57C6004102C7 /* GlassCellModifier.swift in Sources */,
+				4FCD22FE2BAAD46D004102C7 /* UDManager.swift in Sources */,
+				4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */,
+				4FCD23422BAB2D3F004102C7 /* GlassLazyVGrid.swift in Sources */,
+				4FCD22C22BA9B6A4004102C7 /* APIResult.swift in Sources */,
+				4FCD22D52BA9BB03004102C7 /* APICaller.swift in Sources */,
+				4FCD22CC2BA9B999004102C7 /* StatObject.swift in Sources */,
+				4FCD23402BAB2D3F004102C7 /* GlassList.swift in Sources */,
+				4FCD23052BAAD5F6004102C7 /* DataManager.swift in Sources */,
+				4FCD22CE2BA9B9D3004102C7 /* StatValueObject.swift in Sources */,
+				4FCD22C42BA9B811004102C7 /* APIError.swift in Sources */,
+				4FCD22BB2BA9B15D004102C7 /* Network.swift in Sources */,
+				4FCD22D02BA9BA01004102C7 /* ItemTypeObject.swift in Sources */,
+				4FCD231E2BAB0DB7004102C7 /* TabItem.swift in Sources */,
+				4FCD23172BAAF010004102C7 /* Tab.swift in Sources */,
+				4FCD22D22BA9BA5F004102C7 /* ItemObject.swift in Sources */,
+				4FCD22EF2BA9D394004102C7 /* Stat.swift in Sources */,
+				4FCD22BF2BA9B4B1004102C7 /* APIEndpoints.swift in Sources */,
+				4FCD234C2BAC2874004102C7 /* CardsView.swift in Sources */,
+				4FCD232A2BAB26D6004102C7 /* ItemsView.swift in Sources */,
+				4FCD23102BAAE0E3004102C7 /* NightingaleView.swift in Sources */,
+				4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */,
+				4FCD23412BAB2D3F004102C7 /* GlassLazyHGrid.swift in Sources */,
+				4FCD23232BAB0E52004102C7 /* PositionKey.swift in Sources */,
+				4FCD23532BAC28A4004102C7 /* MoreView.swift in Sources */,
 				4FCD22762BA98FAF004102C7 /* SurvivalCraftingCompanionApp.swift in Sources */,
+				4FCD22B92BA9A691004102C7 /* APIEnvironment.swift in Sources */,
+				4FCD22E92BA9CDA2004102C7 /* GeneralType.swift in Sources */,
+				4FCD22F12BA9D3D7004102C7 /* StatValue.swift in Sources */,
+				4FCD233E2BAB2D3F004102C7 /* GlassPane.swift in Sources */,
+				4FCD23432BAB2D3F004102C7 /* RoundedCorner.swift in Sources */,
+				4FCD22C62BA9B8A9004102C7 /* GeneralTypeObject.swift in Sources */,
+				4FCD235B2BAC5872004102C7 /* GlassModifier.swift in Sources */,
+				4FCD230D2BAAE07E004102C7 /* AppRoute.swift in Sources */,
+				4FCD22BD2BA9B3B5004102C7 /* Networking.swift in Sources */,
+				4FCD23442BAB2D3F004102C7 /* GlassView.swift in Sources */,
+				4FCD22ED2BA9D317004102C7 /* ItemType.swift in Sources */,
+				4FCD23552BAC56C3004102C7 /* CustomTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,27 +807,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SurvivalCraftingCompanion/Preview Content\"";
-				DEVELOPMENT_TEAM = 53LT98574P;
+				DEVELOPMENT_TEAM = PSU9VZHG7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.zwicker.SurvivalCraftingCompanion;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.zwicker.sc-companion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,27 +843,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SurvivalCraftingCompanion/Preview Content\"";
-				DEVELOPMENT_TEAM = 53LT98574P;
+				DEVELOPMENT_TEAM = PSU9VZHG7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.zwicker.SurvivalCraftingCompanion;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.zwicker.sc-companion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -588,6 +990,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FCD22B52BA9A685004102C7 /* XCRemoteSwiftPackageReference "ZNetwork" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/szwicker/ZNetwork";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4FCD23082BAAE033004102C7 /* XCRemoteSwiftPackageReference "Routing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JamesSedlacek/Routing";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FCD22B62BA9A685004102C7 /* ZNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCD22B52BA9A685004102C7 /* XCRemoteSwiftPackageReference "ZNetwork" */;
+			productName = ZNetwork;
+		};
+		4FCD23092BAAE033004102C7 /* Routing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FCD23082BAAE033004102C7 /* XCRemoteSwiftPackageReference "Routing" */;
+			productName = Routing;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FCD226A2BA98FAF004102C7 /* Project object */;
 }

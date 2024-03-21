@@ -1,0 +1,24 @@
+{
+  "originHash" : "83a7993a3609ba2ce12c4b77973cdd2816e3230fa3c8619ce40655b905587cf0",
+  "pins" : [
+    {
+      "identity" : "routing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JamesSedlacek/Routing",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b996580a66fc66f9ea01222b18a281f157001161"
+      }
+    },
+    {
+      "identity" : "znetwork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/szwicker/ZNetwork",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b3d0d68dadc80f4f50579c0bd3aca089e539c1c8"
+      }
+    }
+  ],
+  "version" : 3
+}
