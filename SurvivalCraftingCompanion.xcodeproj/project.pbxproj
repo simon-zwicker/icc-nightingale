@@ -33,7 +33,6 @@
 		4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22F22BA9D425004102C7 /* SCCItem.swift */; };
 		4FCD22F52BAAD0CA004102C7 /* Nightingale.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */; };
 		4FCD22FB2BAAD32F004102C7 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */; };
-		4FCD22FE2BAAD46D004102C7 /* UDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD22FD2BAAD46D004102C7 /* UDManager.swift */; };
 		4FCD23052BAAD5F6004102C7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD23042BAAD5F6004102C7 /* DataManager.swift */; };
 		4FCD230A2BAAE033004102C7 /* Routing in Frameworks */ = {isa = PBXBuildFile; productRef = 4FCD23092BAAE033004102C7 /* Routing */; };
 		4FCD230D2BAAE07E004102C7 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD230C2BAAE07E004102C7 /* AppRoute.swift */; };
@@ -96,7 +95,6 @@
 		4FCD22F22BA9D425004102C7 /* SCCItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCCItem.swift; sourceTree = "<group>"; };
 		4FCD22F42BAAD0CA004102C7 /* Nightingale.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Nightingale.xcassets; sourceTree = "<group>"; };
 		4FCD22FA2BAAD32F004102C7 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
-		4FCD22FD2BAAD46D004102C7 /* UDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDManager.swift; sourceTree = "<group>"; };
 		4FCD23042BAAD5F6004102C7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4FCD230C2BAAE07E004102C7 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
 		4FCD230F2BAAE0E3004102C7 /* NightingaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightingaleView.swift; sourceTree = "<group>"; };
@@ -307,7 +305,6 @@
 		4FCD22FC2BAAD465004102C7 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				4FCD22FD2BAAD46D004102C7 /* UDManager.swift */,
 				4FCD23042BAAD5F6004102C7 /* DataManager.swift */,
 			);
 			path = Managers;
@@ -546,7 +543,6 @@
 				4FCD23202BAB0DCE004102C7 /* View.swift in Sources */,
 				4FCD23492BAC2810004102C7 /* BuildingsView.swift in Sources */,
 				4FCD23502BAC2890004102C7 /* TradersView.swift in Sources */,
-				4FCD22FE2BAAD46D004102C7 /* UDManager.swift in Sources */,
 				4FCD22F32BA9D425004102C7 /* SCCItem.swift in Sources */,
 				4FCD22C22BA9B6A4004102C7 /* APIResult.swift in Sources */,
 				4FCD22D52BA9BB03004102C7 /* APICaller.swift in Sources */,
